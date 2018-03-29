@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+fly -t ci set-pipeline -p irc-notification-resource -c concourse.yml -l ${HOME}/.private-concourse.yml
